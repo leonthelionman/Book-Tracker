@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<title>Book Tracker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- external jquery link -->
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	</head>
+	<body>
+
+		<h1 id = "title"> Book Tracker</h1>
+
+		<div id ="app">
+			<p id="about">This is a book tracker based on ISBN numbers like "9780747532743" and "9780786838653" copy one and input it into the field below to track these books</p>
+			<input id = "ISBN-Input" type="text" name="" placeholder="Search ISBN Number">
+			<button id="getBook" name="buttonHI">Track Book</button>
+			
+			<table id="myTable">
+				<thead>
+					<tr>
+						<th colspan="3">Books Saved</th>
+					</tr>
+
+					<tr>
+						<td>Book Name</td>
+						<td id = "Page-you-are">What Page are You on?</td>
+						<td>Clear Book</td>
+					</tr>
+
+				</thead>
+				<tbody>
+	
+				</tbody>
+			</table>
+			<p id="foot">This webapp also saves your books in local storage so your changes will be here when you close the page and come back</p>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>

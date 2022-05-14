@@ -1,0 +1,80 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* required*/
+*{
+  box-sizing: border-box;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: black;
+}
+#app{
+  margin: auto;
+  width: 520px;
+  zoom: 2; 
+}
+#about, #foot{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#title{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 0px;
+  border-top: 1px solid rgba(118, 117, 117, 0.9);
+  border-bottom: 1px solid rgba(118, 117, 117, 0.9);
+}
+#myTable{
+  width: 100%;
+}
+
+@media only screen and (max-width: 1050px) {
+
+  #app{
+    margin: auto;
+    width: 100%;
+    zoom: 2; 
+  }
+
+  .page{
+    width: 100%;
+  }
+
+  .bookwidth{
+    width: 100%;
+  }
+}
